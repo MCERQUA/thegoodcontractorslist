@@ -53,53 +53,53 @@ export default function Guarantee() {
                 <h3 className="text-2xl font-bold mb-2">Standard Guarantee</h3>
                 <div className="text-4xl font-bold">Up to $25,000</div>
               </div>
-              <div className="p-6">
-                <h4 className="font-bold text-lg mb-4">Eligibility Requirements:</h4>
+              <div className="p-6 bg-white">
+                <h4 className="font-bold text-lg mb-4 text-gray-900">Eligibility Requirements:</h4>
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-blue-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Must register on our platform before work begins</span>
+                    <span className="text-gray-700">Must register on our platform before work begins</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-blue-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Hire a contractor from our vetted network</span>
+                    <span className="text-gray-700">Hire a contractor from our vetted network</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-blue-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Have a written Statement of Work with the contractor</span>
+                    <span className="text-gray-700">Have a written Statement of Work with the contractor</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-blue-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Covers residential projects only</span>
+                    <span className="text-gray-700">Covers residential projects only</span>
                   </li>
                 </ul>
-                <h4 className="font-bold text-lg mb-4">What's Covered:</h4>
+                <h4 className="font-bold text-lg mb-4 text-gray-900">What's Covered:</h4>
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Labor and non-defective materials</span>
+                    <span className="text-gray-700">Labor and non-defective materials</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Completion of unfinished work</span>
+                    <span className="text-gray-700">Completion of unfinished work</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Repair or replacement of defective work</span>
+                    <span className="text-gray-700">Repair or replacement of defective work</span>
                   </li>
                 </ul>
               </div>
@@ -114,53 +114,53 @@ export default function Guarantee() {
                 <h3 className="text-2xl font-bold mb-2">Elite Guarantee</h3>
                 <div className="text-4xl font-bold">Up to $350,000</div>
               </div>
-              <div className="p-6">
-                <h4 className="font-bold text-lg mb-4">Eligibility Requirements:</h4>
+              <div className="p-6 bg-white">
+                <h4 className="font-bold text-lg mb-4 text-gray-900">Eligibility Requirements:</h4>
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-accent-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>All Standard Guarantee requirements, PLUS:</span>
+                    <span className="text-gray-700">All Standard Guarantee requirements, PLUS:</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-accent-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Contractor must be an Elite Contractor at time of engagement</span>
+                    <span className="text-gray-700">Contractor must be an Elite Contractor at time of engagement</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-accent-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Elite Project Acknowledgement Form (EPAF) must be executed</span>
+                    <span className="text-gray-700">Elite Project Acknowledgement Form (EPAF) must be executed</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-accent-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Statement of Work must be approved by Good Contractors</span>
+                    <span className="text-gray-700">Statement of Work must be approved by Good Contractors</span>
                   </li>
                 </ul>
-                <h4 className="font-bold text-lg mb-4">Enhanced Protection:</h4>
+                <h4 className="font-bold text-lg mb-4 text-gray-900">Enhanced Protection:</h4>
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Maximum protection for large projects</span>
+                    <span className="text-gray-700">Maximum protection for large projects</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Top-tier contractor network</span>
+                    <span className="text-gray-700">Top-tier contractor network</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Additional oversight and support</span>
+                    <span className="text-gray-700">Additional oversight and support</span>
                   </li>
                 </ul>
               </div>
