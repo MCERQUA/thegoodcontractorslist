@@ -33,7 +33,7 @@ export default function FindContractors() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary-600 to-primary-800 text-white py-20">
+      <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
             Find Trusted Contractors
@@ -168,7 +168,7 @@ export default function FindContractors() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-primary-700 text-white">
+      <section className="py-16 bg-blue-700 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Not Registered Yet?</h2>
           <p className="text-xl text-blue-100 mb-8">

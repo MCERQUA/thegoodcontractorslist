@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -42,31 +43,15 @@ export default function Home() {
               </div>
             </div>
             <div className="hidden lg:block">
-              <div className="relative">
-                <svg viewBox="0 0 400 400" className="w-full h-auto">
-                  {/* House illustration */}
-                  <g>
-                    {/* Main house body */}
-                    <rect x="100" y="200" width="200" height="150" fill="#FFFFFF" stroke="#E5E7EB" strokeWidth="2"/>
-                    {/* Roof */}
-                    <path d="M 80 200 L 200 100 L 320 200 Z" fill="#FCD34D" stroke="#F59E0B" strokeWidth="2"/>
-                    {/* Door */}
-                    <rect x="170" y="270" width="60" height="80" fill="#3B82F6" stroke="#1D4ED8" strokeWidth="2"/>
-                    {/* Windows */}
-                    <rect x="120" y="220" width="50" height="50" fill="#93C5FD" stroke="#3B82F6" strokeWidth="2"/>
-                    <rect x="230" y="220" width="50" height="50" fill="#93C5FD" stroke="#3B82F6" strokeWidth="2"/>
-                    {/* Window frames */}
-                    <line x1="145" y1="220" x2="145" y2="270" stroke="#1D4ED8" strokeWidth="1"/>
-                    <line x1="120" y1="245" x2="170" y2="245" stroke="#1D4ED8" strokeWidth="1"/>
-                    <line x1="255" y1="220" x2="255" y2="270" stroke="#1D4ED8" strokeWidth="1"/>
-                    <line x1="230" y1="245" x2="280" y2="245" stroke="#1D4ED8" strokeWidth="1"/>
-                    {/* Checkmark shield */}
-                    <g transform="translate(310, 150)">
-                      <circle cx="0" cy="0" r="35" fill="#10B981" opacity="0.9"/>
-                      <path d="M -12 -2 L -5 5 L 12 -12" fill="none" stroke="white" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round"/>
-                    </g>
-                  </g>
-                </svg>
+              <div className="relative rounded-lg overflow-hidden shadow-2xl">
+                <Image
+                  src="/images/hero-image.png"
+                  alt="Professional contractors working on a modern home"
+                  width={800}
+                  height={450}
+                  className="w-full h-auto"
+                  priority
+                />
               </div>
             </div>
           </div>
