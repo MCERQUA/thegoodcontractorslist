@@ -247,7 +247,7 @@ export default function ForContractors() {
 
             <div className="flex items-start">
               <div className="flex-shrink-0">
-                <div className="w-12 h-12 bg-accent-500 text-gray-900 rounded-full flex items-center justify-center text-xl font-bold">
+                <div className="w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold" style={{backgroundColor: '#2563eb', color: '#ffffff'}}>
                   4
                 </div>
               </div>

@@ -132,7 +132,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {/* Step 1 */}
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div className="w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4" style={{backgroundColor: '#2563eb', color: '#ffffff'}}>
                 1
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">Register</h3>
@@ -143,7 +143,7 @@ export default function Home() {
 
             {/* Step 2 */}
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div className="w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4" style={{backgroundColor: '#2563eb', color: '#ffffff'}}>
                 2
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">Search & Connect</h3>
@@ -154,7 +154,7 @@ export default function Home() {
 
             {/* Step 3 */}
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div className="w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4" style={{backgroundColor: '#2563eb', color: '#ffffff'}}>
                 3
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">Hire with Confidence</h3>
@@ -165,7 +165,7 @@ export default function Home() {
 
             {/* Step 4 */}
             <div className="text-center">
-              <div className="w-16 h-16 bg-accent-500 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div className="w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4" style={{backgroundColor: '#2563eb', color: '#ffffff'}}>
                 4
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">Protected Always</h3>
