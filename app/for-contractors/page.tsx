@@ -21,7 +21,8 @@ export default function ForContractors() {
           </p>
           <Link
             href="/contact"
-            className="inline-block bg-accent-500 text-gray-900 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-accent-400 transition"
+            className="inline-block px-8 py-4 rounded-lg font-semibold text-lg transition"
+            style={{backgroundColor: '#eab308', color: '#111827'}}
           >
             Apply to Join
           </Link>
@@ -274,7 +275,8 @@ export default function ForContractors() {
           </p>
           <Link
             href="/contact"
-            className="inline-block bg-accent-500 text-gray-900 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-accent-400 transition"
+            className="inline-block px-8 py-4 rounded-lg font-semibold text-lg transition"
+            style={{backgroundColor: '#eab308', color: '#111827'}}
           >
             Contact Us to Apply
           </Link>
