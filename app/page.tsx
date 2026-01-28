@@ -4,30 +4,70 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-primary-600 to-primary-800 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Find Trusted Contractors.<br />
-              <span className="text-accent-300">Guaranteed.</span>
-            </h1>
-            <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto">
-              Connect with vetted, professional home service contractors backed by our
-              industry-leading guarantee up to $350,000.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Link
-                href="/find-contractors"
-                className="bg-white text-primary-700 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition w-full sm:w-auto text-center"
-              >
-                Find a Contractor
-              </Link>
-              <Link
-                href="/how-it-works"
-                className="bg-primary-700 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-primary-600 transition border-2 border-white w-full sm:w-auto text-center"
-              >
-                How It Works
-              </Link>
+      <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white overflow-hidden">
+        <div className="absolute inset-0 opacity-10">
+          <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <defs>
+              <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+                <path d="M 10 0 L 0 0 0 10" fill="none" stroke="white" strokeWidth="0.5"/>
+              </pattern>
+            </defs>
+            <rect width="100" height="100" fill="url(#grid)" />
+          </svg>
+        </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 relative">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="text-center lg:text-left">
+              <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white">
+                Find Trusted Contractors.<br />
+                <span className="text-yellow-400">Guaranteed.</span>
+              </h1>
+              <p className="text-xl md:text-2xl mb-8 text-blue-50 max-w-3xl">
+                Connect with vetted, professional home service contractors backed by our
+                industry-leading guarantee up to $350,000.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center">
+                <Link
+                  href="/find-contractors"
+                  className="bg-white text-blue-700 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition w-full sm:w-auto text-center shadow-lg"
+                >
+                  Find a Contractor
+                </Link>
+                <Link
+                  href="/how-it-works"
+                  className="bg-transparent text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-800 transition border-2 border-white w-full sm:w-auto text-center"
+                >
+                  How It Works
+                </Link>
+              </div>
+            </div>
+            <div className="hidden lg:block">
+              <div className="relative">
+                <svg viewBox="0 0 400 400" className="w-full h-auto">
+                  {/* House illustration */}
+                  <g>
+                    {/* Main house body */}
+                    <rect x="100" y="200" width="200" height="150" fill="#FFFFFF" stroke="#E5E7EB" strokeWidth="2"/>
+                    {/* Roof */}
+                    <path d="M 80 200 L 200 100 L 320 200 Z" fill="#FCD34D" stroke="#F59E0B" strokeWidth="2"/>
+                    {/* Door */}
+                    <rect x="170" y="270" width="60" height="80" fill="#3B82F6" stroke="#1D4ED8" strokeWidth="2"/>
+                    {/* Windows */}
+                    <rect x="120" y="220" width="50" height="50" fill="#93C5FD" stroke="#3B82F6" strokeWidth="2"/>
+                    <rect x="230" y="220" width="50" height="50" fill="#93C5FD" stroke="#3B82F6" strokeWidth="2"/>
+                    {/* Window frames */}
+                    <line x1="145" y1="220" x2="145" y2="270" stroke="#1D4ED8" strokeWidth="1"/>
+                    <line x1="120" y1="245" x2="170" y2="245" stroke="#1D4ED8" strokeWidth="1"/>
+                    <line x1="255" y1="220" x2="255" y2="270" stroke="#1D4ED8" strokeWidth="1"/>
+                    <line x1="230" y1="245" x2="280" y2="245" stroke="#1D4ED8" strokeWidth="1"/>
+                    {/* Checkmark shield */}
+                    <g transform="translate(310, 150)">
+                      <circle cx="0" cy="0" r="35" fill="#10B981" opacity="0.9"/>
+                      <path d="M -12 -2 L -5 5 L 12 -12" fill="none" stroke="white" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round"/>
+                    </g>
+                  </g>
+                </svg>
+              </div>
             </div>
           </div>
         </div>
@@ -153,7 +193,7 @@ export default function Home() {
           <div className="text-center mt-12">
             <Link
               href="/register"
-              className="inline-block bg-primary-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-primary-700 transition"
+              className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transition shadow-md"
             >
               Get Started Today
             </Link>
@@ -162,13 +202,13 @@ export default function Home() {
       </section>
 
       {/* Guarantee Section */}
-      <section className="py-20 bg-gradient-to-r from-primary-700 to-primary-900 text-white">
+      <section className="py-20 bg-gradient-to-r from-blue-700 to-blue-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
               Industry-Leading Guarantee Protection
             </h2>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+            <p className="text-xl text-white max-w-3xl mx-auto">
               We stand behind every contractor in our network with real financial protection.
             </p>
           </div>
@@ -233,7 +273,7 @@ export default function Home() {
           <div className="text-center mt-12">
             <Link
               href="/guarantee"
-              className="inline-block bg-white text-primary-700 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition"
+              className="inline-block bg-white text-blue-700 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition shadow-lg"
             >
               Learn More About Our Guarantee
             </Link>
@@ -254,13 +294,13 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/register"
-              className="bg-primary-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-primary-700 transition"
+              className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transition shadow-md"
             >
               Register as Homeowner
             </Link>
             <Link
               href="/for-contractors"
-              className="bg-gray-800 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-900 transition"
+              className="bg-gray-800 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-900 transition shadow-md"
             >
               Join as Contractor
             </Link>

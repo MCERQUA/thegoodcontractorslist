@@ -11,31 +11,31 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <Link href="/" className="text-2xl font-bold text-primary-700">
+            <Link href="/" className="text-2xl font-bold text-blue-700">
               The Good Contractors List
             </Link>
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="/find-contractors" className="text-gray-700 hover:text-primary-600 transition">
+            <Link href="/find-contractors" className="text-gray-700 hover:text-blue-600 transition">
               Find Contractors
             </Link>
-            <Link href="/how-it-works" className="text-gray-700 hover:text-primary-600 transition">
+            <Link href="/how-it-works" className="text-gray-700 hover:text-blue-600 transition">
               How It Works
             </Link>
-            <Link href="/guarantee" className="text-gray-700 hover:text-primary-600 transition">
+            <Link href="/guarantee" className="text-gray-700 hover:text-blue-600 transition">
               Guarantee
             </Link>
-            <Link href="/for-contractors" className="text-gray-700 hover:text-primary-600 transition">
+            <Link href="/for-contractors" className="text-gray-700 hover:text-blue-600 transition">
               For Contractors
             </Link>
-            <Link href="/contact" className="text-gray-700 hover:text-primary-600 transition">
+            <Link href="/contact" className="text-gray-700 hover:text-blue-600 transition">
               Contact
             </Link>
             <Link
               href="/register"
-              className="bg-primary-600 text-white px-6 py-2 rounded-lg hover:bg-primary-700 transition"
+              className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition"
             >
               Get Started
             </Link>
@@ -45,7 +45,7 @@ export default function Navigation() {
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-gray-700 hover:text-primary-600 focus:outline-none"
+              className="text-gray-700 hover:text-blue-600 focus:outline-none"
             >
               <svg className="h-6 w-6" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                 {isMenuOpen ? (
@@ -62,22 +62,22 @@ export default function Navigation() {
         {isMenuOpen && (
           <div className="md:hidden pb-4">
             <div className="flex flex-col space-y-2">
-              <Link href="/find-contractors" className="text-gray-700 hover:text-primary-600 py-2">
+              <Link href="/find-contractors" className="text-gray-700 hover:text-blue-600 py-2">
                 Find Contractors
               </Link>
-              <Link href="/how-it-works" className="text-gray-700 hover:text-primary-600 py-2">
+              <Link href="/how-it-works" className="text-gray-700 hover:text-blue-600 py-2">
                 How It Works
               </Link>
-              <Link href="/guarantee" className="text-gray-700 hover:text-primary-600 py-2">
+              <Link href="/guarantee" className="text-gray-700 hover:text-blue-600 py-2">
                 Guarantee
               </Link>
-              <Link href="/for-contractors" className="text-gray-700 hover:text-primary-600 py-2">
+              <Link href="/for-contractors" className="text-gray-700 hover:text-blue-600 py-2">
                 For Contractors
               </Link>
-              <Link href="/contact" className="text-gray-700 hover:text-primary-600 py-2">
+              <Link href="/contact" className="text-gray-700 hover:text-blue-600 py-2">
                 Contact
               </Link>
-              <Link href="/register" className="bg-primary-600 text-white px-6 py-2 rounded-lg hover:bg-primary-700 text-center">
+              <Link href="/register" className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 text-center">
                 Get Started
               </Link>
             </div>
