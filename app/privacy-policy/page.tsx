@@ -137,8 +137,8 @@ export default function PrivacyPolicy() {
 
           <p className="mb-6">
             To exercise these rights, please contact us at{" "}
-            <a href="mailto:careteam@goodlistmail.com" className="text-blue-600 hover:text-blue-700">
-              careteam@goodlistmail.com
+            <a href="mailto:josh@joshcotner.com" className="text-blue-600 hover:text-blue-700">
+              josh@joshcotner.com
             </a>
           </p>
 
@@ -165,8 +165,8 @@ export default function PrivacyPolicy() {
             <p className="mb-2"><strong>Good Contractors, LLC</strong></p>
             <p className="mb-2">
               Email:{" "}
-              <a href="mailto:careteam@goodlistmail.com" className="text-blue-600 hover:text-blue-700">
-                careteam@goodlistmail.com
+              <a href="mailto:josh@joshcotner.com" className="text-blue-600 hover:text-blue-700">
+                josh@joshcotner.com
               </a>
             </p>
           </div>

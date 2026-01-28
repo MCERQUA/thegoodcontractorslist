@@ -16,7 +16,7 @@ export default function Footer() {
             </p>
             <div className="text-gray-400 text-sm">
               <p>Good Contractors, LLC</p>
-              <p>Email: <a href="mailto:careteam@goodlistmail.com" className="text-blue-400 hover:text-blue-300">careteam@goodlistmail.com</a></p>
+              <p>Email: <a href="mailto:josh@joshcotner.com" className="text-blue-400 hover:text-blue-300">josh@joshcotner.com</a></p>
             </div>
           </div>
 

@@ -149,8 +149,8 @@ export default function TermsOfService() {
           <p className="mb-4">
             <strong>4.2 Filing a Guarantee Claim:</strong> If you believe the Contractor has committed a Default, you must
             first notify the Contractor and provide reasonable opportunity to remediate. If unsuccessful, contact{" "}
-            <a href="mailto:careteam@goodlistmail.com" className="text-blue-600 hover:text-blue-700">
-              careteam@goodlistmail.com
+            <a href="mailto:josh@joshcotner.com" className="text-blue-600 hover:text-blue-700">
+              josh@joshcotner.com
             </a>{" "}
             within 60 days of project completion.
           </p>
@@ -236,8 +236,8 @@ export default function TermsOfService() {
 
           <p className="mb-4">
             For inquiries regarding these Terms, please contact us at:{" "}
-            <a href="mailto:careteam@goodlistmail.com" className="text-blue-600 hover:text-blue-700">
-              careteam@goodlistmail.com
+            <a href="mailto:josh@joshcotner.com" className="text-blue-600 hover:text-blue-700">
+              josh@joshcotner.com
             </a>
           </p>
 

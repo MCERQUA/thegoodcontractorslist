@@ -188,8 +188,8 @@ export default function Guarantee() {
               <p className="text-gray-600">
                 If the contractor is unwilling or unable to address the issues within a reasonable
                 timeframe, email us at{" "}
-                <a href="mailto:careteam@goodlistmail.com" className="text-blue-600 hover:text-blue-700 font-semibold">
-                  careteam@goodlistmail.com
+                <a href="mailto:josh@joshcotner.com" className="text-blue-600 hover:text-blue-700 font-semibold">
+                  josh@joshcotner.com
                 </a>{" "}
                 within 60 days of the documented project completion date.
               </p>

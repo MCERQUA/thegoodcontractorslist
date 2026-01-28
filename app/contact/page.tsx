@@ -59,8 +59,8 @@ export default function Contact() {
                   </svg>
                   <div>
                     <h3 className="font-bold text-gray-900 mb-1">Email</h3>
-                    <a href="mailto:careteam@goodlistmail.com" className="text-blue-600 hover:text-blue-700">
-                      careteam@goodlistmail.com
+                    <a href="mailto:josh@joshcotner.com" className="text-blue-600 hover:text-blue-700">
+                      josh@joshcotner.com
                     </a>
                   </div>
                 </div>
@@ -83,8 +83,8 @@ export default function Contact() {
                     <h3 className="font-bold text-gray-900 mb-1">For Guarantee Claims</h3>
                     <p className="text-gray-600">
                       Please email us at{" "}
-                      <a href="mailto:careteam@goodlistmail.com" className="text-blue-600 hover:text-blue-700">
-                        careteam@goodlistmail.com
+                      <a href="mailto:josh@joshcotner.com" className="text-blue-600 hover:text-blue-700">
+                        josh@joshcotner.com
                       </a>{" "}
                       for assistance with filing a guarantee claim
                     </p>
