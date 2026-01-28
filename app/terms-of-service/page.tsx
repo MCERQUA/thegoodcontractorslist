@@ -149,7 +149,7 @@ export default function TermsOfService() {
           <p className="mb-4">
             <strong>4.2 Filing a Guarantee Claim:</strong> If you believe the Contractor has committed a Default, you must
             first notify the Contractor and provide reasonable opportunity to remediate. If unsuccessful, contact{" "}
-            <a href="mailto:careteam@goodlistmail.com" className="text-primary-600 hover:text-primary-700">
+            <a href="mailto:careteam@goodlistmail.com" className="text-blue-600 hover:text-blue-700">
               careteam@goodlistmail.com
             </a>{" "}
             within 60 days of project completion.
@@ -223,7 +223,7 @@ export default function TermsOfService() {
 
           <p className="mb-4">
             <strong>14.2 Virtual Expedited Arbitration:</strong> Unresolved disputes shall be finally resolved by binding
-            arbitration through New Era ADR, Inc. (<a href="https://app.neweraadr.com/" className="text-primary-600" target="_blank" rel="noopener noreferrer">https://app.neweraadr.com/</a>)
+            arbitration through New Era ADR, Inc. (<a href="https://app.neweraadr.com/" className="text-blue-600" target="_blank" rel="noopener noreferrer">https://app.neweraadr.com/</a>)
             in accordance with Virtual Expedited Arbitration procedures. Costs are shared equally.
           </p>
 
@@ -236,12 +236,12 @@ export default function TermsOfService() {
 
           <p className="mb-4">
             For inquiries regarding these Terms, please contact us at:{" "}
-            <a href="mailto:careteam@goodlistmail.com" className="text-primary-600 hover:text-primary-700">
+            <a href="mailto:careteam@goodlistmail.com" className="text-blue-600 hover:text-blue-700">
               careteam@goodlistmail.com
             </a>
           </p>
 
-          <div className="bg-blue-50 border-l-4 border-primary-600 p-6 mt-8">
+          <div className="bg-blue-50 border-l-4 border-blue-600 p-6 mt-8">
             <p className="text-sm text-gray-700">
               <strong>Last Updated:</strong> January 2026<br/>
               <strong>Governing Law:</strong> State of Texas, United States of America

@@ -22,7 +22,7 @@ export default function PrivacyPolicy() {
             explains how we collect, use, disclose, and safeguard your information when you visit our Platform.
           </p>
 
-          <div className="bg-blue-50 border-l-4 border-primary-600 p-4 mb-8">
+          <div className="bg-blue-50 border-l-4 border-blue-600 p-4 mb-8">
             <p className="text-sm text-gray-700">
               <strong>Important:</strong> Please read this Privacy Policy carefully. By using the Platform,
               you agree to the collection and use of information in accordance with this policy.
@@ -137,7 +137,7 @@ export default function PrivacyPolicy() {
 
           <p className="mb-6">
             To exercise these rights, please contact us at{" "}
-            <a href="mailto:careteam@goodlistmail.com" className="text-primary-600 hover:text-primary-700">
+            <a href="mailto:careteam@goodlistmail.com" className="text-blue-600 hover:text-blue-700">
               careteam@goodlistmail.com
             </a>
           </p>
@@ -165,13 +165,13 @@ export default function PrivacyPolicy() {
             <p className="mb-2"><strong>Good Contractors, LLC</strong></p>
             <p className="mb-2">
               Email:{" "}
-              <a href="mailto:careteam@goodlistmail.com" className="text-primary-600 hover:text-primary-700">
+              <a href="mailto:careteam@goodlistmail.com" className="text-blue-600 hover:text-blue-700">
                 careteam@goodlistmail.com
               </a>
             </p>
           </div>
 
-          <div className="bg-blue-50 border-l-4 border-primary-600 p-6 mt-8">
+          <div className="bg-blue-50 border-l-4 border-blue-600 p-6 mt-8">
             <p className="text-sm text-gray-700">
               <strong>Governing Law:</strong> This Privacy Policy is governed by the laws of the
               State of Texas, United States of America.

@@ -219,7 +219,7 @@ export default function Register() {
                     name="propertyOwner"
                     checked={formData.propertyOwner}
                     onChange={handleChange}
-                    className="mt-1 h-4 w-4 text-primary-600 focus:ring-primary-500 border-gray-300 rounded"
+                    className="mt-1 h-4 w-4 text-blue-600 focus:ring-primary-500 border-gray-300 rounded"
                   />
                   <label htmlFor="propertyOwner" className="ml-3 text-sm text-gray-700">
                     I confirm that I am the legal owner of the property listed above and I am at least 18 years old. *
@@ -233,15 +233,15 @@ export default function Register() {
                     name="agreeToTerms"
                     checked={formData.agreeToTerms}
                     onChange={handleChange}
-                    className="mt-1 h-4 w-4 text-primary-600 focus:ring-primary-500 border-gray-300 rounded"
+                    className="mt-1 h-4 w-4 text-blue-600 focus:ring-primary-500 border-gray-300 rounded"
                   />
                   <label htmlFor="agreeToTerms" className="ml-3 text-sm text-gray-700">
                     I have read and agree to the{" "}
-                    <Link href="/terms-of-service" className="text-primary-600 hover:text-primary-700 font-semibold">
+                    <Link href="/terms-of-service" className="text-blue-600 hover:text-blue-700 font-semibold">
                       Terms of Service
                     </Link>{" "}
                     and{" "}
-                    <Link href="/privacy-policy" className="text-primary-600 hover:text-primary-700 font-semibold">
+                    <Link href="/privacy-policy" className="text-blue-600 hover:text-blue-700 font-semibold">
                       Privacy Policy
                     </Link>
                     . *
@@ -249,7 +249,7 @@ export default function Register() {
                 </div>
               </div>
 
-              <div className="bg-blue-50 border-l-4 border-primary-600 p-4">
+              <div className="bg-blue-50 border-l-4 border-blue-600 p-4">
                 <p className="text-sm text-gray-700">
                   <strong>Important:</strong> You must register BEFORE hiring a contractor to be eligible
                   for our guarantee program. Registration is completely free.
@@ -258,7 +258,7 @@ export default function Register() {
 
               <button
                 type="submit"
-                className="w-full bg-primary-600 text-white px-6 py-3 rounded-lg font-semibold text-lg hover:bg-primary-700 transition"
+                className="w-full bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold text-lg hover:bg-blue-700 transition"
               >
                 Complete Registration
               </button>
@@ -270,25 +270,25 @@ export default function Register() {
             <h3 className="text-lg font-bold text-gray-900 mb-4">What You Get:</h3>
             <ul className="space-y-3">
               <li className="flex items-start">
-                <svg className="w-6 h-6 text-primary-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-6 h-6 text-blue-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
                 <span>Access to our curated network of vetted contractors</span>
               </li>
               <li className="flex items-start">
-                <svg className="w-6 h-6 text-primary-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-6 h-6 text-blue-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
                 <span>Standard Guarantee protection up to $25,000</span>
               </li>
               <li className="flex items-start">
-                <svg className="w-6 h-6 text-primary-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-6 h-6 text-blue-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
                 <span>Eligibility for Elite Guarantee up to $350,000 on qualifying projects</span>
               </li>
               <li className="flex items-start">
-                <svg className="w-6 h-6 text-primary-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-6 h-6 text-blue-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
                 <span>Peace of mind knowing your project is protected</span>

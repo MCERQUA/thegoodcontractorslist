@@ -54,19 +54,19 @@ export default function Contact() {
 
               <div className="space-y-6">
                 <div className="flex items-start">
-                  <svg className="w-6 h-6 text-primary-600 mr-4 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-6 h-6 text-blue-600 mr-4 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                   <div>
                     <h3 className="font-bold text-gray-900 mb-1">Email</h3>
-                    <a href="mailto:careteam@goodlistmail.com" className="text-primary-600 hover:text-primary-700">
+                    <a href="mailto:careteam@goodlistmail.com" className="text-blue-600 hover:text-blue-700">
                       careteam@goodlistmail.com
                     </a>
                   </div>
                 </div>
 
                 <div className="flex items-start">
-                  <svg className="w-6 h-6 text-primary-600 mr-4 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-6 h-6 text-blue-600 mr-4 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   <div>
@@ -76,14 +76,14 @@ export default function Contact() {
                 </div>
 
                 <div className="flex items-start">
-                  <svg className="w-6 h-6 text-primary-600 mr-4 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-6 h-6 text-blue-600 mr-4 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                   </svg>
                   <div>
                     <h3 className="font-bold text-gray-900 mb-1">For Guarantee Claims</h3>
                     <p className="text-gray-600">
                       Please email us at{" "}
-                      <a href="mailto:careteam@goodlistmail.com" className="text-primary-600 hover:text-primary-700">
+                      <a href="mailto:careteam@goodlistmail.com" className="text-blue-600 hover:text-blue-700">
                         careteam@goodlistmail.com
                       </a>{" "}
                       for assistance with filing a guarantee claim
@@ -92,7 +92,7 @@ export default function Contact() {
                 </div>
               </div>
 
-              <div className="mt-8 bg-blue-50 border-l-4 border-primary-600 p-6">
+              <div className="mt-8 bg-blue-50 border-l-4 border-blue-600 p-6">
                 <h3 className="font-bold text-gray-900 mb-2">Office Information</h3>
                 <p className="text-gray-700">Good Contractors, LLC</p>
                 <p className="text-sm text-gray-600 mt-2">
@@ -187,18 +187,18 @@ export default function Contact() {
 
                 <button
                   type="submit"
-                  className="w-full bg-primary-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-700 transition"
+                  className="w-full bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
                 >
                   Send Message
                 </button>
 
                 <p className="text-sm text-gray-500 text-center">
                   By submitting this form, you agree to our{" "}
-                  <a href="/terms-of-service" className="text-primary-600 hover:text-primary-700">
+                  <a href="/terms-of-service" className="text-blue-600 hover:text-blue-700">
                     Terms of Service
                   </a>{" "}
                   and{" "}
-                  <a href="/privacy-policy" className="text-primary-600 hover:text-primary-700">
+                  <a href="/privacy-policy" className="text-blue-600 hover:text-blue-700">
                     Privacy Policy
                   </a>
                 </p>

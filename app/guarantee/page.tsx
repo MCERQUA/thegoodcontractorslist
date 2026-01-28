@@ -49,7 +49,7 @@ export default function Guarantee() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
             {/* Standard Guarantee */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <div className="bg-primary-600 text-white p-6">
+              <div className="bg-blue-600 text-white p-6">
                 <h3 className="text-2xl font-bold mb-2">Standard Guarantee</h3>
                 <div className="text-4xl font-bold">Up to $25,000</div>
               </div>
@@ -57,25 +57,25 @@ export default function Guarantee() {
                 <h4 className="font-bold text-lg mb-4">Eligibility Requirements:</h4>
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-start">
-                    <svg className="w-6 h-6 text-primary-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6 text-blue-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     <span>Must register on our platform before work begins</span>
                   </li>
                   <li className="flex items-start">
-                    <svg className="w-6 h-6 text-primary-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6 text-blue-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     <span>Hire a contractor from our vetted network</span>
                   </li>
                   <li className="flex items-start">
-                    <svg className="w-6 h-6 text-primary-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6 text-blue-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     <span>Have a written Statement of Work with the contractor</span>
                   </li>
                   <li className="flex items-start">
-                    <svg className="w-6 h-6 text-primary-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6 text-blue-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     <span>Covers residential projects only</span>
@@ -175,7 +175,7 @@ export default function Guarantee() {
           <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">How to File a Claim</h2>
 
           <div className="space-y-6">
-            <div className="border-l-4 border-primary-600 pl-6">
+            <div className="border-l-4 border-blue-600 pl-6">
               <h3 className="text-xl font-bold text-gray-900 mb-2">Step 1: Try to Resolve Directly</h3>
               <p className="text-gray-600">
                 First, notify the contractor of any issues and provide them with a reasonable
@@ -183,19 +183,19 @@ export default function Guarantee() {
               </p>
             </div>
 
-            <div className="border-l-4 border-primary-600 pl-6">
+            <div className="border-l-4 border-blue-600 pl-6">
               <h3 className="text-xl font-bold text-gray-900 mb-2">Step 2: Contact Us</h3>
               <p className="text-gray-600">
                 If the contractor is unwilling or unable to address the issues within a reasonable
                 timeframe, email us at{" "}
-                <a href="mailto:careteam@goodlistmail.com" className="text-primary-600 hover:text-primary-700 font-semibold">
+                <a href="mailto:careteam@goodlistmail.com" className="text-blue-600 hover:text-blue-700 font-semibold">
                   careteam@goodlistmail.com
                 </a>{" "}
                 within 60 days of the documented project completion date.
               </p>
             </div>
 
-            <div className="border-l-4 border-primary-600 pl-6">
+            <div className="border-l-4 border-blue-600 pl-6">
               <h3 className="text-xl font-bold text-gray-900 mb-2">Step 3: Complete Notice of Default</h3>
               <p className="text-gray-600">
                 We'll provide you with an official Notice of Default form. Complete it with all
@@ -204,7 +204,7 @@ export default function Guarantee() {
               </p>
             </div>
 
-            <div className="border-l-4 border-primary-600 pl-6">
+            <div className="border-l-4 border-blue-600 pl-6">
               <h3 className="text-xl font-bold text-gray-900 mb-2">Step 4: Our Assessment</h3>
               <p className="text-gray-600">
                 We'll assess the claim to determine if a default occurred. You'll need to provide
@@ -305,13 +305,13 @@ export default function Guarantee() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/register"
-              className="bg-white text-primary-700 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition"
+              className="bg-white text-blue-700 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition"
             >
               Register as Homeowner
             </Link>
             <Link
               href="/terms-of-service"
-              className="bg-primary-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-primary-500 transition border-2 border-white"
+              className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-500 transition border-2 border-white"
             >
               Read Full Terms
             </Link>
