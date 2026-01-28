@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -39,31 +40,31 @@ export default function HowItWorks() {
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="md:w-1/2">
                 <div className="flex items-center mb-4">
-                  <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center text-xl font-bold mr-4">
+                  <div className="w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mr-4" style={{backgroundColor: '#2563eb', color: '#ffffff'}}>
                     1
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900">Register Your Account</h3>
                 </div>
-                <p className="text-gray-600 text-lg mb-4">
+                <p className="text-gray-600 text-lg mb-4 leading-relaxed">
                   Create your free account on The Good Contractors List platform. This must be
                   done before hiring any contractor to ensure you're eligible for our guarantee
                   program.
                 </p>
-                <ul className="space-y-2 text-gray-600">
+                <ul className="space-y-3 text-gray-600">
                   <li className="flex items-start">
-                    <svg className="w-6 h-6 text-blue-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6 text-blue-600 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     <span>Must be 18 years or older</span>
                   </li>
                   <li className="flex items-start">
-                    <svg className="w-6 h-6 text-blue-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6 text-blue-600 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     <span>Must be the legal owner of the property</span>
                   </li>
                   <li className="flex items-start">
-                    <svg className="w-6 h-6 text-blue-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6 text-blue-600 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     <span>Registration is completely free</span>
@@ -71,8 +72,8 @@ export default function HowItWorks() {
                 </ul>
               </div>
               <div className="md:w-1/2">
-                <div className="bg-blue-50 p-8 rounded-lg">
-                  <svg className="w-full h-48 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="bg-gradient-to-br from-blue-500 to-blue-700 p-12 rounded-2xl shadow-xl">
+                  <svg className="w-full h-48 text-white opacity-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                   </svg>
                 </div>
@@ -83,30 +84,30 @@ export default function HowItWorks() {
             <div className="flex flex-col md:flex-row-reverse items-center gap-8">
               <div className="md:w-1/2">
                 <div className="flex items-center mb-4">
-                  <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center text-xl font-bold mr-4">
+                  <div className="w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mr-4" style={{backgroundColor: '#2563eb', color: '#ffffff'}}>
                     2
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900">Search for Contractors</h3>
                 </div>
-                <p className="text-gray-600 text-lg mb-4">
+                <p className="text-gray-600 text-lg mb-4 leading-relaxed">
                   Browse our curated network of vetted contractors by service category
                   (electrician, plumber, general contractor, etc.) and your zip code.
                 </p>
-                <ul className="space-y-2 text-gray-600">
+                <ul className="space-y-3 text-gray-600">
                   <li className="flex items-start">
-                    <svg className="w-6 h-6 text-blue-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6 text-blue-600 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     <span>Every contractor is thoroughly screened</span>
                   </li>
                   <li className="flex items-start">
-                    <svg className="w-6 h-6 text-blue-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6 text-blue-600 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     <span>Licensed, insured, and experienced professionals</span>
                   </li>
                   <li className="flex items-start">
-                    <svg className="w-6 h-6 text-blue-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6 text-blue-600 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     <span>View contractor profiles and contact information</span>
@@ -114,8 +115,8 @@ export default function HowItWorks() {
                 </ul>
               </div>
               <div className="md:w-1/2">
-                <div className="bg-accent-50 p-8 rounded-lg">
-                  <svg className="w-full h-48 text-accent-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="bg-gradient-to-br from-yellow-400 to-yellow-600 p-12 rounded-2xl shadow-xl">
+                  <svg className="w-full h-48 text-white opacity-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                   </svg>
                 </div>
@@ -126,7 +127,7 @@ export default function HowItWorks() {
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="md:w-1/2">
                 <div className="flex items-center mb-4">
-                  <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center text-xl font-bold mr-4">
+                  <div className="w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mr-4" style={{backgroundColor: '#2563eb', color: '#ffffff'}}>
                     3
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900">Connect & Hire</h3>
@@ -135,7 +136,7 @@ export default function HowItWorks() {
                   Contact contractors directly using the information provided on our platform.
                   Discuss your project, get quotes, and hire the contractor that fits your needs.
                 </p>
-                <div className="bg-blue-50 border-l-4 border-blue-600 p-4 mt-4">
+                <div className="bg-blue-50 border-l-4 border-blue-600 p-4 mt-4 rounded-lg">
                   <p className="text-sm text-gray-700">
                     <strong>Important:</strong> You must have a written Statement of Work that
                     details the scope, timeline, and financial terms. For Elite projects
@@ -145,10 +146,14 @@ export default function HowItWorks() {
                 </div>
               </div>
               <div className="md:w-1/2">
-                <div className="bg-blue-50 p-8 rounded-lg">
-                  <svg className="w-full h-48 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-                  </svg>
+                <div className="relative rounded-xl overflow-hidden shadow-xl">
+                  <Image
+                    src="/images/handshake.png"
+                    alt="Contractor and homeowner handshake agreement"
+                    width={600}
+                    height={450}
+                    className="w-full h-auto"
+                  />
                 </div>
               </div>
             </div>
@@ -157,30 +162,30 @@ export default function HowItWorks() {
             <div className="flex flex-col md:flex-row-reverse items-center gap-8">
               <div className="md:w-1/2">
                 <div className="flex items-center mb-4">
-                  <div className="w-12 h-12 bg-accent-500 text-white rounded-full flex items-center justify-center text-xl font-bold mr-4">
+                  <div className="w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mr-4" style={{backgroundColor: '#2563eb', color: '#ffffff'}}>
                     4
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900">Protected by Our Guarantee</h3>
                 </div>
-                <p className="text-gray-600 text-lg mb-4">
+                <p className="text-gray-600 text-lg mb-4 leading-relaxed">
                   Your project is automatically covered by our guarantee program. If the
                   contractor defaults or delivers defective work, we'll step in to make it right.
                 </p>
-                <ul className="space-y-2 text-gray-600">
+                <ul className="space-y-3 text-gray-600">
                   <li className="flex items-start">
-                    <svg className="w-6 h-6 text-accent-500 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6 text-blue-600 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     <span>Standard Guarantee: Up to $25,000</span>
                   </li>
                   <li className="flex items-start">
-                    <svg className="w-6 h-6 text-accent-500 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6 text-blue-600 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     <span>Elite Guarantee: Up to $350,000</span>
                   </li>
                   <li className="flex items-start">
-                    <svg className="w-6 h-6 text-accent-500 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6 text-blue-600 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     <span>60-day claim period after project completion</span>
@@ -188,8 +193,8 @@ export default function HowItWorks() {
                 </ul>
               </div>
               <div className="md:w-1/2">
-                <div className="bg-accent-50 p-8 rounded-lg">
-                  <svg className="w-full h-48 text-accent-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="bg-gradient-to-br from-green-500 to-green-700 p-12 rounded-2xl shadow-xl">
+                  <svg className="w-full h-48 text-white opacity-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                   </svg>
                 </div>
