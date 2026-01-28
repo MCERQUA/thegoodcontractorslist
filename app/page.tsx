@@ -4,42 +4,47 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white overflow-hidden animated-gradient">
-        <div className="absolute inset-0 opacity-5">
-          <div className="absolute inset-0" style={{
-            backgroundImage: 'radial-gradient(circle at 2px 2px, rgba(255,255,255,0.15) 1px, transparent 0)',
-            backgroundSize: '40px 40px'
-          }}></div>
+      {/* Hero Section - DRAMATIC NEW DESIGN */}
+      <section className="relative min-h-[90vh] flex items-center overflow-hidden" style={{
+        background: 'linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #334155 100%)'
+      }}>
+        {/* Diagonal overlay */}
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute -rotate-12 -left-1/4 top-0 w-full h-full bg-gradient-to-r from-orange-500 to-transparent"></div>
         </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 relative">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="text-center lg:text-left">
-              <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white">
-                Find Trusted Contractors.<br />
-                <span className="text-yellow-400">Guaranteed.</span>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10 w-full">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <div className="inline-block bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-bold mb-6">
+                ⚡ PROTECTED BY $350K GUARANTEE
+              </div>
+              <h1 className="text-6xl md:text-7xl lg:text-8xl font-black mb-8 leading-tight">
+                <span className="text-white">Trusted</span><br />
+                <span className="text-orange-500">Contractors.</span><br />
+                <span className="text-white">Guaranteed.</span>
               </h1>
-              <p className="text-xl md:text-2xl mb-8 text-blue-50 max-w-3xl">
-                Connect with vetted, professional home service contractors backed by our
-                industry-leading guarantee up to $350,000.
+              <p className="text-2xl text-gray-300 mb-10 leading-relaxed max-w-xl">
+                Connect with elite, vetted contractors. Every project backed by industry-leading protection.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center">
+              <div className="flex flex-col sm:flex-row gap-6">
                 <Link
                   href="/find-contractors"
-                  className="bg-white text-blue-700 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition w-full sm:w-auto text-center shadow-lg"
+                  className="group bg-orange-500 text-white px-10 py-5 rounded-xl font-bold text-xl hover:bg-orange-600 transition transform hover:scale-105 shadow-2xl text-center"
                 >
-                  Find a Contractor
+                  Find Your Contractor →
                 </Link>
                 <Link
-                  href="/how-it-works"
-                  className="bg-transparent text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-800 transition border-2 border-white w-full sm:w-auto text-center"
+                  href="/guarantee"
+                  className="bg-white/10 backdrop-blur-sm text-white px-10 py-5 rounded-xl font-bold text-xl hover:bg-white/20 transition border-2 border-white/30 text-center"
                 >
-                  How It Works
+                  Our Guarantee
                 </Link>
               </div>
             </div>
-            <div className="hidden lg:block">
-              <div className="relative rounded-lg overflow-hidden shadow-2xl">
+            <div className="relative hidden lg:block">
+              <div className="relative rounded-3xl overflow-hidden shadow-2xl transform rotate-2 hover:rotate-0 transition duration-500">
+                <div className="absolute inset-0 bg-gradient-to-tr from-orange-500/20 to-transparent z-10"></div>
                 <Image
                   src="/images/hero-image.png"
                   alt="Professional contractors working on a modern home"
@@ -49,65 +54,64 @@ export default function Home() {
                   priority
                 />
               </div>
+              {/* Stats overlay */}
+              <div className="absolute -bottom-8 -left-8 bg-white rounded-2xl p-6 shadow-2xl">
+                <div className="text-5xl font-black text-orange-500 mb-2">$350K</div>
+                <div className="text-gray-600 font-bold">Max Protection</div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Features Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose The Good Contractors List?
+      {/* Features Section - BOLD ASYMMETRIC DESIGN */}
+      <section className="py-32 bg-white relative overflow-hidden">
+        {/* Large text background */}
+        <div className="absolute top-20 left-0 text-9xl font-black text-gray-50 opacity-50 select-none">
+          WHY US?
+        </div>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="mb-20">
+            <div className="inline-block bg-orange-100 text-orange-600 px-6 py-2 rounded-full text-sm font-bold mb-6">
+              THE DIFFERENCE
+            </div>
+            <h2 className="text-5xl md:text-6xl font-black text-gray-900 mb-6 leading-tight max-w-3xl">
+              Not Your Average <span className="text-orange-500">Contractor Directory</span>
             </h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              We go beyond simple contractor directories. Every professional in our network
-              is thoroughly vetted and backed by our comprehensive guarantee.
-            </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Feature 1 */}
-            <div className="bg-white p-8 rounded-xl shadow-lg hover-lift border border-gray-100">
-              <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            {/* Feature 1 - Large */}
+            <div className="bg-gradient-to-br from-slate-900 to-slate-800 p-12 rounded-3xl text-white transform hover:scale-105 transition duration-300 shadow-2xl">
+              <div className="w-20 h-20 bg-orange-500 rounded-2xl flex items-center justify-center mb-8">
+                <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Thoroughly Vetted</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Every contractor undergoes rigorous screening including background checks,
-                license verification, insurance validation, and reputation review.
+              <h3 className="text-3xl font-black mb-4">Rigorously Vetted</h3>
+              <p className="text-xl text-gray-300 leading-relaxed">
+                Background checks, license verification, insurance validation, and reputation review. No shortcuts.
               </p>
             </div>
 
-            {/* Feature 2 */}
-            <div className="bg-white p-8 rounded-xl shadow-lg hover-lift border border-gray-100">
-              <div className="w-16 h-16 bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
-                <svg className="w-8 h-8 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-                </svg>
+            {/* Feature 2 & 3 - Stacked */}
+            <div className="space-y-12">
+              <div className="bg-orange-500 p-10 rounded-3xl text-white transform hover:scale-105 transition duration-300 shadow-2xl">
+                <div className="text-6xl font-black mb-4">$350K</div>
+                <h3 className="text-2xl font-black mb-3">Maximum Protection</h3>
+                <p className="text-lg opacity-90">
+                  Industry-leading guarantee coverage. Your investment is safe.
+                </p>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Protected by Guarantee</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Standard projects covered up to $25,000. Elite projects protected up to
-                $350,000. Your investment is secured.
-              </p>
-            </div>
 
-            {/* Feature 3 */}
-            <div className="bg-white p-8 rounded-xl shadow-lg hover-lift border border-gray-100">
-              <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                </svg>
+              <div className="bg-slate-100 p-10 rounded-3xl transform hover:scale-105 transition duration-300 shadow-xl">
+                <div className="text-5xl font-black text-slate-900 mb-4">10+</div>
+                <h3 className="text-2xl font-black text-slate-900 mb-3">Years Experience</h3>
+                <p className="text-lg text-slate-600">
+                  Only the most experienced professionals make the cut.
+                </p>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Experienced Professionals</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Minimum 3 years in business with 10+ years industry experience, or 5+ years
-                in business for contractors with extensive backgrounds.
-              </p>
             </div>
           </div>
         </div>
@@ -182,81 +186,58 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Guarantee Section */}
-      <section className="py-20 bg-gradient-to-r from-blue-700 to-blue-900 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
-              Industry-Leading Guarantee Protection
-            </h2>
-            <p className="text-xl text-white max-w-3xl mx-auto">
-              We stand behind every contractor in our network with real financial protection.
-            </p>
+      {/* Guarantee Section - BOLD SPLIT DESIGN */}
+      <section className="relative overflow-hidden">
+        <div className="grid grid-cols-1 md:grid-cols-2">
+          {/* Left - Standard */}
+          <div className="bg-slate-900 text-white p-16 lg:p-24 flex flex-col justify-center min-h-[600px]">
+            <div className="inline-block bg-white/10 text-white px-4 py-2 rounded-full text-xs font-bold mb-6 w-fit">
+              STANDARD
+            </div>
+            <div className="text-7xl font-black mb-6">$25K</div>
+            <h3 className="text-3xl font-bold mb-6">Standard Guarantee</h3>
+            <ul className="space-y-4 mb-8">
+              <li className="flex items-center text-lg">
+                <span className="text-green-400 mr-3 text-2xl">✓</span>
+                Register before work begins
+              </li>
+              <li className="flex items-center text-lg">
+                <span className="text-green-400 mr-3 text-2xl">✓</span>
+                Covers residential projects
+              </li>
+              <li className="flex items-center text-lg">
+                <span className="text-green-400 mr-3 text-2xl">✓</span>
+                Labor & materials protected
+              </li>
+            </ul>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {/* Standard Guarantee */}
-            <div className="bg-white/10 backdrop-blur-sm p-8 rounded-lg border-2 border-white/20">
-              <h3 className="text-2xl font-bold mb-2">Standard Guarantee</h3>
-              <div className="text-4xl font-bold text-accent-300 mb-4">Up to $25,000</div>
-              <ul className="space-y-3">
-                <li className="flex items-start">
-                  <svg className="w-6 h-6 text-accent-300 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Register before work begins</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-6 h-6 text-accent-300 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Covers residential projects</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-6 h-6 text-accent-300 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Labor and materials protection</span>
-                </li>
-              </ul>
+          {/* Right - Elite */}
+          <div className="bg-orange-500 text-white p-16 lg:p-24 flex flex-col justify-center min-h-[600px] relative">
+            <div className="absolute top-8 right-8 bg-white text-orange-500 px-6 py-3 rounded-full text-sm font-black">
+              ⚡ ELITE
             </div>
-
-            {/* Elite Guarantee */}
-            <div className="bg-accent-500 p-8 rounded-lg border-2 border-accent-300 relative overflow-hidden">
-              <div className="absolute top-0 right-0 bg-accent-600 text-white px-4 py-1 text-sm font-bold">
-                ELITE
-              </div>
-              <h3 className="text-2xl font-bold mb-2 text-gray-900">Elite Guarantee</h3>
-              <div className="text-4xl font-bold text-gray-900 mb-4">Up to $350,000</div>
-              <ul className="space-y-3 text-gray-900">
-                <li className="flex items-start">
-                  <svg className="w-6 h-6 text-gray-900 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Elite contractor network</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-6 h-6 text-gray-900 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>EPAF documentation required</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-6 h-6 text-gray-900 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Maximum protection for large projects</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="text-center mt-12">
+            <div className="text-8xl font-black mb-6">$350K</div>
+            <h3 className="text-4xl font-black mb-6">Maximum Protection</h3>
+            <ul className="space-y-4 mb-8">
+              <li className="flex items-center text-xl font-bold">
+                <span className="text-white mr-3 text-2xl">●</span>
+                Elite contractor network
+              </li>
+              <li className="flex items-center text-xl font-bold">
+                <span className="text-white mr-3 text-2xl">●</span>
+                Enhanced documentation
+              </li>
+              <li className="flex items-center text-xl font-bold">
+                <span className="text-white mr-3 text-2xl">●</span>
+                Large project coverage
+              </li>
+            </ul>
             <Link
               href="/guarantee"
-              className="inline-block bg-white text-blue-700 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition shadow-lg"
+              className="inline-block bg-white text-orange-500 px-10 py-5 rounded-xl font-black text-xl hover:bg-slate-900 hover:text-white transition transform hover:scale-105 shadow-2xl text-center w-fit"
             >
-              Learn More About Our Guarantee
+              View Full Details →
             </Link>
           </div>
         </div>
